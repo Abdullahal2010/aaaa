@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #111;
+}
+
+h2 {
+  color: #fff;
+  font-size: 4rem;
+  display: flex;
+  font-weight: 400;
+  -webkit-box-reflect: below -27px linear-gradient(transparent, #0002);
+  text-transform: uppercase;
+}
+
+h2 span:nth-child(n + 14) {
+  color: #0f0;
+  font-weight: 700;
+}
